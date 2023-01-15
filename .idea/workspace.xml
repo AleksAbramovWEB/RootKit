@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ed730f31-8223-4336-bb49-61771c0d23f2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/glassfish_javax_json.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_json_api.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RootKit.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RootKit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/AbstractCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/PingCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/ShellCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceotions/AbstractRkException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceotions/CommandNotFoundRkException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceotions/ShellRkException.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2KMj2EOlPGk2dZrDSJIjTeKBLws" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="RootKit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <envs>
+        <env name="COMMAND_NOT_FOUND_INSTALL_PROMPT" value="1" />
+        <env name="DBUS_SESSION_BUS_ADDRESS" value="unix:path\=/run/user/1000/bus" />
+        <env name="DESKTOP_AUTOSTART_ID" value="10ef50f0ad71e0d482167354947194818800000012360020" />
+        <env name="DESKTOP_SESSION" value="gnome" />
+        <env name="DISPLAY" value=":0" />
+        <env name="DOTNET_CLI_TELEMETRY_OPTOUT" value="1" />
+        <env name="GDM_LANG" value="ru_RU.UTF-8" />
+        <env name="GDMSESSION" value="gnome" />
+        <env name="GIO_LAUNCHED_DESKTOP_FILE" value="$USER_HOME$/.config/autostart/jetbrains-toolbox.desktop" />
+        <env name="GIO_LAUNCHED_DESKTOP_FILE_PID" value="1521" />
+        <env name="GNOME_DESKTOP_SESSION_ID" value="this-is-deprecated" />
+        <env name="GPG_AGENT_INFO" value="/run/user/1000/gnupg/S.gpg-agent:0:1" />
+        <env name="GTK_MODULES" value="gail:atk-bridge" />
+        <env name="HOME" value="$USER_HOME$" />
+        <env name="INVOCATION_ID" value="a6d55cc7623b42bf938a2cfd47e4e316" />
+        <env name="JOURNAL_STREAM" value="8:21124" />
+        <env name="LANG" value="ru_RU.UTF-8" />
+        <env name="LOGNAME" value="kali" />
+        <env name="MANAGERPID" value="1002" />
+        <env name="NLSPATH" value="/opt/cprocsp/share/locale/%L/LC_MESSAGES/%N" />
+        <env name="OLDPWD" value="$USER_HOME$" />
+        <env name="PATH" value="/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:$USER_HOME$/.dotnet/tools:$USER_HOME$/.local/share/JetBrains/Toolbox/scripts" />
+        <env name="POWERSHELL_TELEMETRY_OPTOUT" value="1" />
+        <env name="POWERSHELL_UPDATECHECK" value="Off" />
+        <env name="PWD" value="$APPLICATION_HOME_DIR$/bin" />
+        <env name="QT_ACCESSIBILITY" value="1" />
+        <env name="QT_AUTO_SCREEN_SCALE_FACTOR" value="0" />
+        <env name="QT_IM_MODULE" value="ibus" />
+        <env name="QT_QPA_PLATFORMTHEME" value="qt5ct" />
+        <env name="SESSION_MANAGER" value="local/kali:@/tmp/.ICE-unix/1236,unix/kali:/tmp/.ICE-unix/1236" />
+        <env name="SHELL" value="/usr/bin/zsh" />
+        <env name="SSH_AGENT_PID" value="1207" />
+        <env name="SSH_AUTH_SOCK" value="/run/user/1000/keyring/ssh" />
+        <env name="SYSTEMD_EXEC_PID" value="1236" />
+        <env name="TOOLBOX_VERSION" value="1.27.2.13801" />
+        <env name="USER" value="kali" />
+        <env name="USERNAME" value="kali" />
+        <env name="WINDOWPATH" value="2" />
+        <env name="XAUTHORITY" value="/run/user/1000/gdm/Xauthority" />
+        <env name="XDG_CURRENT_DESKTOP" value="GNOME" />
+        <env name="XDG_DATA_DIRS" value="/usr/share/gnome:/usr/local/share/:/usr/share/" />
+        <env name="XDG_MENU_PREFIX" value="gnome-" />
+        <env name="XDG_RUNTIME_DIR" value="/run/user/1000" />
+        <env name="XDG_SESSION_CLASS" value="user" />
+        <env name="XDG_SESSION_DESKTOP" value="gnome" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="RootKit" />
+      <module name="RootKit" />
+      <option name="PASS_PARENT_ENVS" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RootKit" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ed730f31-8223-4336-bb49-61771c0d23f2" name="Changes" comment="" />
+      <created>1673791139089</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673791139089</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="exceotions.ShellRkException" package="exceotions" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
