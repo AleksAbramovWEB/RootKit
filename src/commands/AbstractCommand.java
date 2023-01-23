@@ -10,6 +10,7 @@ public abstract class AbstractCommand implements Runnable {
 
     protected static final String COMMAND_SHELL = "rk-shell";
     protected static final String COMMAND_PING = "rk-ping";
+    protected static final String COMMAND_SYSTEM_INFO = "rk-system-info";
 
     protected Socket socket;
 
@@ -25,6 +26,7 @@ public abstract class AbstractCommand implements Runnable {
         {
             put(COMMAND_SHELL, new ShellCommand());
             put(COMMAND_PING, new PingCommand());
+            put(COMMAND_SYSTEM_INFO, new SystemInfoCommand());
         }
     };
 
